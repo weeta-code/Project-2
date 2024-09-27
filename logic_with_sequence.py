@@ -27,5 +27,5 @@ def iff_with_result(list_append):
 def xor_with_result_in_between(list_xor):
     A = list_xor[0]
     B = list_xor[1]
-    list_xor.insert(xor(A, B), 1)
+    list_xor.insert(1, xor(A, B))
     return list_xor
