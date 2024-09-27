@@ -20,12 +20,12 @@ def implies_in_both_directions(list_implies):
 def iff_with_result(list_append):
     A = list_append[0]
     B = list_append[1]
-    list_append = list_append.append(iff(A, B))
+    list_append.append(iff(A, B))
     return list_append
 
 
 def xor_with_result_in_between(list_xor):
     A = list_xor[0]
     B = list_xor[1]
-    list_xor = list_xor.insert(xor(A, B), 1)
+    list_xor.insert(xor(A, B), 1)
     return list_xor
